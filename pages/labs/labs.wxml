@@ -1,4 +1,5 @@
 <!--pages/labs/labs.wxml-->
-<text>
-欢迎来到labs页面
-</text>
+<view style="background:#ccc;">
+  <article/>
+</view> 
+
