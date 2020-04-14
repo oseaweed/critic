@@ -1,14 +1,32 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/news/news",
+    "pages/labs/labs"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
-  "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "tabBar":{
+    "list":[
+      {
+        "pagePath": "pages/news/news",
+        "text": "NEWS"
+      },
+      {
+        "pagePath": "pages/labs/labs",
+        "text": "LABS"
+      }
+    ]
+    
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index"
+  }
 }

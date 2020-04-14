@@ -1,2 +1,4 @@
 <!--pages/news/news.wxml-->
-<text>pages/news/news.wxml</text>
+<text>
+欢迎来到news页面
+</text>
